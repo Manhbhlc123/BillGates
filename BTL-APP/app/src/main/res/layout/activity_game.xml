@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bg_game"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageButton
+        android:id="@+id/ImgMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ddb669"
+        android:src="@drawable/menu_icon" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/tvQuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Câu: 1/15"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPrize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Thưởng: $0"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_dialog"
+        android:gravity="center"
+        android:text="30"
+        android:textColor="#FF5252"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQuestionContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:background="#66000000"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn5050Game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00BCD4"
+                android:src="@drawable/btn_5050"
+                android:textColor="#FFFFFF" />
+
+            <ImageButton
+                android:id="@+id/btnStatisticGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00BCD4"
+                android:src="@drawable/statistic"
+
+                            android:textColor="#FFFFFF" />
+
+                        <ImageButton
+                            android:id="@+id/btnCallGame"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#00BCD4"
+                            android:src="@drawable/phone_call"
+                            android:textColor="#FFFFFF" />
+
+
+                        <ImageButton
+                            android:id="@+id/btnExpertGame"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#00BCD4"
+                            android:src="@drawable/expert"
+                            android:textColor="#FFFFFF"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <Button
+                            android:id="@+id/btnAnswerA"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:text="A. "
+                            android:layout_marginEnd="5dp"
+                            android:backgroundTint="#1565C0"
+                            android:textColor="#FFFFFF"
+                            android:textAllCaps="false"/>
+
+                        <Button
+                            android:id="@+id/btnAnswerB"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:text="B. "
+                            android:layout_marginStart="5dp"
+                            android:backgroundTint="#1565C0"
+                            android:textColor="#FFFFFF"
+                            android:textAllCaps="false"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnAnswerC"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:text="C. "
+                            android:layout_marginEnd="5dp"
+                            android:backgroundTint="#1565C0"
+                            android:textColor="#FFFFFF"
+                            android:textAllCaps="false"/>
+
+                        <Button
+                            android:id="@+id/btnAnswerD"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:text="D. "
+                            android:layout_marginStart="5dp"
+                            android:backgroundTint="#1565C0"
+                            android:textColor="#FFFFFF"
+                            android:textAllCaps="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>

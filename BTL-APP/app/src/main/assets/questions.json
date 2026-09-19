@@ -1,0 +1,107 @@
+[
+  {
+    "id": "Q001",
+    "content": "Một nụ cười bằng mười thang...",
+    "answers": ["Thuốc độc", "Thuốc ngủ", "Thuốc bổ", "Thuốc ho"],
+    "correctIndex": 2,
+    "level": 1
+  },
+  {
+    "id": "Q002",
+    "content": "Theo quan niệm dân gian, 'Ruột để ngoài...' gì?",
+    "answers": ["Da", "Tai", "Mắt", "Bụng"],
+    "correctIndex": 0,
+    "level": 2
+  },
+  {
+    "id": "Q003",
+    "content": "Con vật nào sau đây thường kêu 'Meo meo'?",
+    "answers": ["Chó", "Mèo", "Chuột", "Gà"],
+    "correctIndex": 1,
+    "level": 3
+  },
+  {
+    "id": "Q004",
+    "content": "Đèn tín hiệu giao thông thông thường có mấy màu cơ bản?",
+    "answers": ["2", "4", "3", "5"],
+    "correctIndex": 2,
+    "level": 4
+  },
+  {
+    "id": "Q005",
+    "content": "Di sản thiên nhiên thế giới Vịnh Hạ Long nằm ở tỉnh nào của Việt Nam?",
+    "answers": ["Hải Phòng", "Thái Bình", "Nam Định", "Quảng Ninh"],
+    "correctIndex": 3,
+    "level": 5
+  },
+  {
+    "id": "Q006",
+    "content": "Bánh chưng, bánh giầy gắn liền với truyền thuyết về vị hoàng tử nào?",
+    "answers": ["Lang Liêu", "Sơn Tinh", "Mai An Tiêm", "Thạch Sanh"],
+    "correctIndex": 0,
+    "level": 6
+  },
+  {
+    "id": "Q007",
+    "content": "Trong truyền thuyết Sơn Tinh - Thủy Tinh, Thủy Tinh đại diện cho hiện tượng thiên nhiên nào?",
+    "answers": ["Động đất", "Lũ lụt", "Hạn hán", "Sóng thần"],
+    "correctIndex": 1,
+    "level": 7
+  },
+  {
+    "id": "Q008",
+    "content": "Ai là người được mệnh danh là 'Trạng Trình'?",
+    "answers": ["Mạc Đĩnh Chi", "Lương Thế Vinh", "Nguyễn Bỉnh Khiêm", "Chu Văn An"],
+    "correctIndex": 2,
+    "level": 8
+  },
+  {
+    "id": "Q009",
+    "content": "Bức họa nổi tiếng 'Mona Lisa' là tác phẩm của danh họa nào?",
+    "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    "correctIndex": 2,
+    "level": 9
+  },
+  {
+    "id": "Q010",
+    "content": "Biển Đông là một biển ven bờ thuộc đại dương nào?",
+    "answers": ["Đại Tây Dương", "Ấn Độ Dương", "Bắc Băng Dương", "Thái Bình Dương"],
+    "correctIndex": 3,
+    "level": 10
+  },
+  {
+    "id": "Q011",
+    "content": "Tác giả của bài thơ 'Sóng' được đưa vào chương trình Ngữ Văn là ai?",
+    "answers": ["Hồ Xuân Hương", "Xuân Quỳnh", "Đoàn Thị Điểm", "Bà Huyện Thanh Quan"],
+    "correctIndex": 1,
+    "level": 11
+  },
+  {
+    "id": "Q012",
+    "content": "Thành phố nào được mệnh danh là 'Thành phố ngàn hoa' ở Việt Nam?",
+    "answers": ["Sapa", "Tam Đảo", "Đà Lạt", "Bà Nà"],
+    "correctIndex": 2,
+    "level": 12
+  },
+  {
+    "id": "Q013",
+    "content": "Loài chim nào có kích thước lớn nhất thế giới hiện nay?",
+    "answers": ["Đà điểu", "Đại bàng", "Chim cánh cụt", "Kền kền"],
+    "correctIndex": 0,
+    "level": 13
+  },
+  {
+    "id": "Q014",
+    "content": "Nguyên tố hóa học nào chiếm tỉ lệ nhiều nhất trong khí quyển Trái Đất?",
+    "answers": ["Oxy", "Nitơ", "Carbon dioxide", "Hydro"],
+    "correctIndex": 1,
+    "level": 14
+  },
+  {
+    "id": "Q015",
+    "content": "Hành tinh nào trong Hệ Mặt Trời có hệ thống vành đai rõ nét nhất?",
+    "answers": ["Sao Mộc", "Sao Thiên Vương", "Sao Thổ", "Sao Hải Vương"],
+    "correctIndex": 2,
+    "level": 15
+  }
+]
